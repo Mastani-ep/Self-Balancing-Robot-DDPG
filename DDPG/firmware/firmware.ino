@@ -32,7 +32,7 @@ float pid_p = 0;
 float pid_i = 0;
 float pid_d = 0;
 String str;
-bool manual_control = true;
+bool manual_control = true; // false - PID; true - model
 
 // Anti-windup limits for the integral term
 const float pid_i_min = -100.0;

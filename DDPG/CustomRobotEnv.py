@@ -35,7 +35,7 @@ class CustomRobotEnv(gym.Env):
         self.total_mass = 0.680
         self.center_of_mass = [self.center_of_mass_X, self.center_of_mass_Y]
 
-        self.torque_to_acceleration_slope = 0.0004542741699916177 * 18
+        self.torque_to_acceleration_slope = 0.0004542741699916177
         self.torque_to_acceleration_intercept = 0.0
         self.carpet_friction_coefficient = 0.003
 
